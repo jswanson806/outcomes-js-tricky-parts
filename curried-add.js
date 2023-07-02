@@ -5,7 +5,6 @@ function curriedAdd(total) {
         return 0;
     } else {
         return function sumVals(num) {
-            console.log(num)
             if(num === undefined) {
                 return total;
             } else {
